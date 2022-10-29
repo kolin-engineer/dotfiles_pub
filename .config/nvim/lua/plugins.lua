@@ -15,8 +15,13 @@ packer.startup(function(use)
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
   use 'hrsh7th/nvim-cmp' -- Completion
+  -- LSP Realated Packages
   use 'neovim/nvim-lspconfig' -- LSP server
+  use 'glepnir/lspsaga.nvim'
+  use "williamboman/mason.nvim"
+  use "williamboman/mason-lspconfig.nvim"
   use 'L3MON4D3/LuaSnip'
+
   use 'max397574/better-escape.nvim'
   use {
     'nvim-treesitter/nvim-treesitter',
@@ -31,6 +36,5 @@ packer.startup(function(use)
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-file-browser.nvim"
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
- -- use 'glepnir/lspsaga.nvim'
   use 'akinsho/nvim-bufferline.lua'
 end)
