@@ -1,9 +1,11 @@
 local keymap = vim.keymap
 
--- Select al
+-- Leader
+keymap.set('', ';', '<Leader>')
+-- Select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
 
--- Increment / Decrement 
+-- Increment / Decrement
 keymap.set('n', '+', '<C-a>')
 keymap.set('n', '-', '<C-x>')
 
