@@ -22,11 +22,11 @@ packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim"
   use 'L3MON4D3/LuaSnip'
 
-  use 'max397574/better-escape.nvim'
   use {
     'nvim-treesitter/nvim-treesitter',
     run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
   }
+  use 'max397574/better-escape.nvim'
   use 'kyazdani42/nvim-web-devicons' -- File icons
   use 'windwp/nvim-autopairs'
   use 'windwp/nvim-ts-autotag'
