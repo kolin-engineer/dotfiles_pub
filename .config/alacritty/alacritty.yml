@@ -1,0 +1,12 @@
+window:
+  opacity: 0.9
+  dimensions:
+    columns: 80
+    lines: 30
+
+shell:
+    program: /usr/bin/fish
+
+font:
+  family: "Hack Regular"
+  size: 20
